@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif!important;
+    overflow-x: hidden;
+}
+
+.btn-primary {
+    color: rgb(255 255 255);
+    background-color: rgb(27 27 254)!important;
+    border-color: rgb(46 109 164);
+}
+
+.sticky {
+    position: sticky!important;
+    top: 0;
+    width: 100%;
+    background: rgb(0 0 255 / 89%);
+    transition: 0.3s all;
+    z-index: 9999;
+    padding: 10px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.footer-menu>ul>li {
+    display: inline-block!important;
+}
+
+.sidefix {
+    width: 93px;
+    padding: 10px;
+    height: auto;
+    position: fixed;
+    font-size: 14px;
+    word-break: break-all;
+    z-index: 999;
+    right: 3px;
+    top: 81%;
+    line-height: 17px;
+    z-index: 108888;
+}
+
+footer {
+    background: rgb(56 56 56) url(https://ramomcoder.com/v3/assets/frontend/images/07.png);
+    transition: 0.3s all;
+    z-index: 9999;
+    padding: 10px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+header {
+    z-index: 9999999;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 25px!important;
+}
+
+.pad-10,
+.First {
+    padding: 10px;
+}
+
+.pad-20 {
+    padding: 20px!important;
+}
+
+.bg-1 {
+    background-image: url(../img//baba-programmer-header-image.gif);
+    position: relative;
+    width: 100%;
+    top: -96px;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-5 {
+    background: rgb(238 241 246);
+}
+
+.app-head {
+    padding: 56px 1px;
+    text-align: center;
+}
+
+.app-head>h1 {
+    font-size: 44px!important;
+}
+
+
+/* 
+.bg-2 {
+    background-image: url(..//img/services-background.gif);
+    ackground-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+.bg-4 {
+    background-image: url(..//img/e-Commerce-mobile-app-development.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Services>img {
+    height: 266px!important;
+    text-align: center;
+    width: 100%
+}
+
+.Logo-babaprogrammer {
+    height: 63px;
+}
+
+.color-white {
+    color: white;
+}
+
+a {
+    color: white!important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form {
+    width: 55%!important;
+    position: relative;
+    right: -216px;
+    background-color: rgb(255 255 255 / 35%);
+    top: 158px;
+}
+
+.Title-of-baba-programmer>h1 {
+    font-size: 60px!important;
+    padding-top: 185px;
+}
+
+.layer {
+    background: rgb(0 0 0 / 42%);
+}
+
+textarea {
+    width: 100%!important;
+    height: 81px;
+    padding: 10px;
+}
+
+.nav {
+    position: relative;
+    left: 101px;
+}
+
+header {
+    background: rgb(37 55 30);
+}
+
+.baba-programmer-social-media ul>li {
+    display: inline;
+    padding: 0px 10px;
+}
+
+.Title-of-baba-programmer>p {
+    font-size: 19px;
+}
+
+@media (max-width:1024px) {
+    form {
+        width: 100%!important;
+        position: relative;
+        right: 0px;
+        background-color: rgb(255 255 255 / 35%);
+        top: -5px;
+    }
+    .Title-of-baba-programmer>h1 {
+        font-size: 46px!important;
+        padding-top: 96px;
+    }
+    .Services>img {
+        height: auto!important;
+        text-align: center;
+        width: 100%
+    }
+    .contact-form-of-baba-programmer {
+        padding: 0px!important;
+    }
+    .navigation {
+        display: none;
+        left: 0;
+    }
+    span {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+    }
+    .Service-heightlight>img {
+        height: auto;
+        padding: 10px;
+        box-shadow: 0px 10px 14px -5px grey;
+        width: 100%;
+    }
+    .Services>p {
+        display: none;
+    }
+    #main:checked~nav .navigation {
+        display: block;
+    }
+    .click {
+        position: absolute;
+        /* left: 0; */
+        right: 42px;
+        font-size: 46px;
+        top: 14px;
+        color: rgb(255 255 255);
+        z-index: 999999999;
+        display: block!important;
+    }
+    .drop {
+        padding: 20px 0px;
+        display: none;
+        background-color: rgb(17 27 255 / 0%)!important;
+        left: 0px!important;
+        font-size: 20px;
+        position: relative!important;
+        width: auto!important;
+        display: block!important;
+    }
+}
+
+.click {
+    display: none;
+}
+
+.none {
+    display: none!important;
+}
+
+.form-2 {
+    width: 55%!important;
+    right: 0;
+    background-color: rgb(255 255 255 / 35%);
+    top: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.drop {
+    position: absolute;
+    padding: 20px 20px;
+    width: 400px;
+    display: none;
+    background-color: rgb(0 0 0);
+    left: -137px;
+    font-size: 20px;
+}
+
+.drop-menu:hover .drop {
+    display: block;
+}
+
+.Service-heightlight {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.Service-heightlight>img {
+    height: 239px;
+    padding: 10px;
+    box-shadow: 0px 10px 14px -5px grey;
+    width: 100%;
+}

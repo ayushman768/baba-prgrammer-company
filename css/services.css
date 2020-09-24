@@ -1,0 +1,22 @@
+.bg-services {
+    background-image: url(../img//services-background.gif);
+    position: relative;
+    width: 100%;
+    top: -96px;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-call {
+    background: rgb(0 0 255 / 89%);
+}
+
+.tag-contact>span {
+    font-size: 30px;
+}
+
+@media (max-width:1024px) {
+    .tag-contact>span {
+        text-align: left;
+    }
+}
